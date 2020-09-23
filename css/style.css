@@ -230,7 +230,7 @@ hr {
   }
 
   .discurso article {
-    width: 350px;
+    width: 330px;
     height: 200px;
     font-weight: normal;
     font-size: 13px;
@@ -244,22 +244,25 @@ hr {
   }
 
   .formulario {
-    display: block;
     background: #141414;
     height: 500px;
-    margin: 0 auto;
-    padding: auto;
   }
 
-  .formulario span {
-    margin: 0 auto;
-    padding: auto;
-  }
-
-  .formulario form {
-    justify-content: center;
-  }
   .section-2 {
     margin-top: 400px;
+    height: 500px;
+  }
+
+  .section-2 article p {
+    width: 276px;
+    height: 264px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .section-2 .botao {
+    width: 353px;
+    height: 53px;
   }
 }
