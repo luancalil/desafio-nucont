@@ -85,7 +85,6 @@ hr {
   font-weight: bolder;
   text-align: center;
   font-size: 16px;
-  justify-content: center;
   padding-top: 2px;
   border: none;
 }
@@ -97,7 +96,7 @@ hr {
 
 .section-2 {
   background: #ffb700;
-  height: 356px;
+  height: 330px;
   width: 100%;
 }
 
@@ -110,27 +109,31 @@ hr {
 }
 
 .section-2 article p {
-  width: 600px;
+  width: 700px;
   color: #fff;
   text-align: center;
   margin-bottom: 20px;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .section-2 article span {
   font-weight: bolder;
 }
 
-.section-2 p {
+.section-2 .paragrafo {
+  margin-top: 20px;
   color: #fff;
   text-align: center;
+  font-weight: bolder;
 }
 
 .section-2 button {
   background-color: #9b51e0;
   width: 600px;
   height: 36px;
-  text-align: center;
-  justify-content: center;
+  margin: 35px auto;
+  display: block;
 }
 
 .lista {
