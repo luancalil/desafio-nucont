@@ -27,9 +27,9 @@
           de análise de indicadores e entenda como fazer uma consultoria
           contábil eficiente. Seja o responsável por ajudar as pequenas empresas
           a se recuperarem dos impactos gerados pela crise econômica, aplicando
-          a contabilidade como ciência.
-          
+          a contabilidade como ciência.          
           </p>
+
           <p>com Fernanda Rocha - CEO da Nucont
 
         </article>
@@ -42,14 +42,14 @@
           Conheça a Consultoria para Contadores e garanta uma vaga exclusiva na
           <span> Imersão Nucont </span>
         </p>
-        <form action="">
-          <input type="text"  placeholder="Primeiro Nome" id="nome"/>
-          <input type="text" placeholder="Sobrenome" id="sobrenome" />
-          <input type="text"  placeholder="E-mail" id="email" />
-          <input type="text"  placeholder="Telephone" id="telefone"/>
-          <input type="text"  placeholder="11+4 = ?" id="question" />
+        <form action="POST">
+          <input type="text"  placeholder="Primeiro Nome" id="nome" required/>
+          <input type="text" placeholder="Sobrenome" id="sobrenome"required />
+          <input type="text"  placeholder="E-mail" id="email" required/>
+          <input type="text"  placeholder="Telephone" id="telefone" required/>
+          <input type="text"  placeholder="11+4 = ?" id="question" required/>
 
-          <button type="submit" class="botao">QUERO ACOMPANHAR A SÉRIE</button>
+          <button type="button" onclick="cadastro()" class="botao" >QUERO ACOMPANHAR A SÉRIE</button>
         </form>
       </div>
     </section>
@@ -163,13 +163,13 @@
           <span> Imersão Nucont </span>
         </p>
         <form action="" >
-          <input type="text"  placeholder="Primeiro Nome" id="nome"/>
-          <input type="text" placeholder="Sobrenome" id="sobrenome" />
-          <input type="text"  placeholder="E-mail" id="email" />
-          <input type="text"  placeholder="Telephone" id="telefone"/>
-          <input type="text"  placeholder="11+4 = ?" id="question" />
-
-          <button type="submit" class="botao">QUERO ACOMPANHAR A SÉRIE</button>
+          <input type="text"  placeholder="Primeiro Nome" id="nome" required/>
+          <input type="text" placeholder="Sobrenome" id="sobrenome" required/>
+          <input type="text"  placeholder="E-mail" id="email" required/>
+          <input type="text"  placeholder="Telephone" id="telefone" required/>
+          <input type="text"  placeholder="11+4 = ?" id="question" required/>
+          
+          <button type="submit" onclick="cadastro()" class="botao">QUERO ACOMPANHAR A SÉRIE</button>
         </form>
       </div>
     </section>
@@ -181,5 +181,7 @@
     </section>
 
     <hr>
+
+    <script src="/script/script.js"></script>
   </body>
 </html>
