@@ -252,20 +252,84 @@ hr {
   }
 
   .section-2 {
-    margin-top: 400px;
-    height: 500px;
+    margin-top: 305px;
+    height: 570px;
+    display: block;
   }
 
   .section-2 article p {
     width: 276px;
-    height: 264px;
+
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+    margin-top: 30px;
+  }
+
+  .section-2 .paragrafo {
+    margin: 30px;
   }
 
   .section-2 .botao {
     width: 353px;
     height: 53px;
+    margin-top: 20px;
+  }
+
+  .lista {
+    display: block;
+    height: 320px;
+    padding-left: 18px;
+  }
+
+  .lista h1 {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .lista ul li {
+    font-size: 14px;
+    width: 265px;
+    height: 68px;
+    margin-top: 5px;
+  }
+
+  .informacoes h1 {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .informacoes-pessoais {
+    display: block;
+    height: 650px;
+  }
+
+  .informacoes-pessoais figure img {
+    width: 296px;
+    height: 262px;
+    margin: 0 auto;
+  }
+
+  .informacoes-pessoais article,
+  .informacoes-pessoais article span {
+    font-size: 14px;
+    margin-top: 21px;
+    width: 331px;
+    margin: 0px;
+  }
+
+  .text {
+    display: block;
+  }
+
+  .text-2 p {
+    font-size: 14px;
+  }
+
+  .formulario {
+    display: block;
+    margin: 0px;
+    padding: 0px;
   }
 }
