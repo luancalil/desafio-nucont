@@ -218,6 +218,9 @@ hr {
 }
 
 @media only screen and (max-width: 500px) {
+  hr {
+    width: 335px;
+  }
   .introduction {
     background: url("/img/ferbg\ 2.png");
     background-repeat: no-repeat;
@@ -250,6 +253,9 @@ hr {
   .introduction div.formulario {
     background: #141414;
     height: 500px;
+  }
+  .introduction div.formulario input {
+    width: 320px;
   }
 
   .section-2 {
@@ -326,12 +332,14 @@ hr {
     align-items: center;
     margin: 0 auto;
     padding: 0 0;
+    font-size: 14px;
   }
 
   .text-2 p {
     font-size: 14px;
     margin: 0 auto;
     padding: 0 0;
+    width: 335px;
   }
 
   .text div.formulario {
@@ -340,9 +348,13 @@ hr {
     padding: 0 0;
   }
 
-  .formulario span {
+  .text div.formulario span {
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
+  }
+
+  .text div.fomulario p {
+    font-size: 15px;
   }
 
   .formulario .formulario-2 {
@@ -350,5 +362,9 @@ hr {
   }
 
   .formulario-2 span {
+  }
+
+  .formulario-2 input {
+    width: 320px;
   }
 }
