@@ -87,6 +87,7 @@ hr {
   font-size: 16px;
   padding-top: 2px;
   border: none;
+  margin-bottom: 30px;
 }
 
 ::placeholder {
