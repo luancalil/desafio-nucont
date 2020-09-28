@@ -343,9 +343,12 @@ hr {
   .informacoes-pessoais article,
   .informacoes-pessoais article span {
     font-size: 12px;
-    margin-top: 21px;
+    margin: 21px 0 0 0;
     width: 331px;
-    padding-top: 20px;
+  }
+
+  .informacoes-pessoais article {
+    padding: 20px 0 0 10px;
   }
 
   .text {
