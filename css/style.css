@@ -253,12 +253,19 @@ hr {
   .introduction div.formulario {
     background: #141414;
     height: 470px;
-
     padding: 80px 0;
+    padding-left: 10px;
   }
   .introduction div.formulario span {
     margin-left: auto;
     margin-right: auto;
+    width: 350px;
+    text-align: center;
+    padding-left: 18px;
+  }
+  .introduction div.formulario p {
+    font-size: 15px;
+    width: 350px;
   }
   .introduction div.formulario input {
     width: 320px;
@@ -280,7 +287,6 @@ hr {
 
   .section-2 article p {
     width: 276px;
-
     font-size: 18px;
     line-height: 22px;
     text-align: center;
@@ -324,7 +330,7 @@ hr {
 
   .informacoes-pessoais {
     display: block;
-    height: 650px;
+    height: 600px;
   }
 
   .informacoes-pessoais figure img {
@@ -336,10 +342,10 @@ hr {
 
   .informacoes-pessoais article,
   .informacoes-pessoais article span {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 21px;
     width: 331px;
-    margin: 0px;
+    padding-top: 20px;
   }
 
   .text {
@@ -361,7 +367,7 @@ hr {
   .text div.formulario {
     display: block;
     margin: 20px auto;
-    padding: 0 0;
+    padding: 0 10px;
   }
 
   .text div.formulario span {
@@ -378,22 +384,21 @@ hr {
     text-align: center;
   }
 
-  .formulario-2 span {
-    margin-left: auto;
-    margin-right: auto;
+  .text div.formulario span {
+    padding-left: 18px;
   }
-  .formulario-2 p {
-    margin-left: auto;
-    margin-right: auto;
+  .text div.formulario p {
     font-size: 15px;
+    width: 350px;
+    margin-top: 15px;
   }
 
-  .formulario-2 input {
+  .text div.formulario .formulario-2 input {
     width: 320px;
     margin-left: auto;
     margin-right: auto;
   }
-  .formulario-2 button.botao {
+  .text div.formulario .formulario-2 button.botao {
     width: 320px;
     font-size: 16px;
     margin-left: auto;
@@ -408,5 +413,7 @@ hr {
     color: #ffbc10;
     text-align: center;
     margin-top: 30px;
+    height: 50px;
+    justify-content: center;
   }
 }
