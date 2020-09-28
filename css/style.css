@@ -258,13 +258,18 @@ hr {
   .introduction div.formulario span {
     margin-left: auto;
     margin-right: auto;
-    width: 370px;
     text-align: center;
-    padding-left: 25px;
+    font-weight: bolder;
+  }
+
+  .introduction div.formulario span.span-1 {
+    padding-left: 15px;
   }
   .introduction div.formulario p {
     font-size: 15px;
     width: 370px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .introduction div.formulario input {
     width: 320px;
