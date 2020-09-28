@@ -247,7 +247,7 @@ hr {
     margin-top: 30px;
   }
 
-  .formulario {
+  .introduction div.formulario {
     background: #141414;
     height: 500px;
   }
@@ -310,6 +310,7 @@ hr {
     width: 296px;
     height: 262px;
     margin: 0 auto;
+    padding: 0 0;
   }
 
   .informacoes-pessoais article,
@@ -322,15 +323,32 @@ hr {
 
   .text {
     display: block;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 0;
   }
 
   .text-2 p {
     font-size: 14px;
+    margin: 0 auto;
+    padding: 0 0;
   }
 
-  .formulario {
+  .text div.formulario {
     display: block;
-    margin: 0px;
-    padding: 0px;
+    margin: 20px auto;
+    padding: 0 0;
+  }
+
+  .formulario span {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .formulario .formulario-2 {
+    background: #fff;
+  }
+
+  .formulario-2 span {
   }
 }
