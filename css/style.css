@@ -29,7 +29,7 @@ hr {
 
 .introduction {
   display: flex;
-  height: 560px;
+  height: 525px;
   background-image: url("/img/ferbg\ 1.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -58,7 +58,7 @@ hr {
 }
 
 .formulario {
-  padding: 130px 0 0 50px;
+  padding: 130px 0 0 30px;
 }
 .formulario span {
   color: #ffe200;
@@ -81,13 +81,17 @@ hr {
   border-radius: 42px;
   margin-top: 2px;
   background: #ffb700;
-  color: #fff;
-  font-weight: bolder;
-  text-align: center;
+
   font-size: 16px;
   padding-top: 2px;
   border: none;
   margin-bottom: 30px;
+}
+
+.botao a {
+  color: #fff;
+  font-weight: bolder;
+  text-align: center;
 }
 
 ::placeholder {
@@ -97,7 +101,7 @@ hr {
 
 .section-2 {
   background: #ffb700;
-  height: 350%;
+  height: 350px;
   width: 100%;
 }
 
@@ -135,6 +139,9 @@ hr {
   height: 36px;
   margin: 35px auto;
   display: block;
+  color: #fff;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .lista {
@@ -197,7 +204,7 @@ hr {
   justify-content: center;
   width: 469px;
   align-items: center;
-  margin-right: 195px;
+  margin-right: 170px;
   padding-top: 190px;
 }
 

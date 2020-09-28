@@ -14,15 +14,38 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-59M96SK');</script>
+  })(window,document,'script','dataLayer','GTM-59M96SK');
+  </script>
   <!-- End Google Tag Manager -->
 
-    <!-- SEO-->
+  <!-- Geral -->
+
+  <meta
+    name="description"
+    content="Identifique situações problemáticas nas empresas através
+    de análise de indicadores e entenda como fazer uma
+    consultoria contábil eficiente. "
+  />
+  <meta rel = "canonical" href="https://desafio-nucont.netlify.app" >
+  <meta name="author" content="Nucont">
+  <meta name="robots" content="index, nofollow">
+  <link rel="icon" href="favicon.ico" />
+  
+    <!-- Open Graph Facebook --> 
+    <meta property="og:title" content="Fernanda Rocha - Consultoria Contabil na Prática - Online">
+    <meta property="og:description" content="Identifique situações problemáticas nas empresas através
+    de análise de indicadores e entenda como fazer uma
+    consultoria contábil eficiente. ">
+    <meta property="og:url" content="https://desafio-nucont.netlify.app">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Fernanda Rocha Nucont">
+    <meta property="og:image" content="/img/ferbg1.png">
+
 
     <!-- Css--> 
     <link
@@ -32,7 +55,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Fernanda Rocha - Consultoria Contabil na Prática</title>
+    <title>Fernanda Rocha - Consultoria Contabil na Prática - Online</title>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -64,14 +87,14 @@
           Conheça a Consultoria para Contadores e garanta uma vaga exclusiva na
           <span> Imersão Nucont </span>
         </p>
-        <form action="POST">
+        <form >
           <input type="text"  placeholder="Primeiro Nome" id="nome" required/>
           <input type="text" placeholder="Sobrenome" id="sobrenome"required />
           <input type="text"  placeholder="E-mail" id="email" required/>
           <input type="text"  placeholder="Telephone" id="telefone" required/>
           <input type="text"  placeholder="11+4 = ?" id="question" required/>
 
-          <button type="button" onclick="cadastro()" class="botao" id="clique" >QUERO ACOMPANHAR A SÉRIE</button>
+          <button type="button" onclick="cadastro()" class="botao" id="clique" ><a href="/thankyoupage.html">QUERO ACOMPANHAR A SÉRIE</a></button>
         </form>
       </div>
     </section>
@@ -90,7 +113,7 @@
        
         </article>
         <p class="paragrafo">Vamos conversar a respeito?</p>
-        <button type="submit" class=" botao" id="clique">QUERO ASSITIR A SÉRIE: CONSULTORIA CONTÁBIL NA PRÁTICA</button>
+        <button type="submit" class=" botao suave" id="clique" onclick="document.getElementById('nome').scrollIntoView();" >QUERO ASSITIR A SÉRIE: CONSULTORIA CONTÁBIL NA PRÁTICA</button>
 
       </div>
       
@@ -183,14 +206,14 @@
           Conheça a Consultoria para Contadores e garanta uma vaga exclusiva na
           <span> Imersão Nucont </span>
         </p>
-        <form action="POST" class="formulario-2" >
+        <form  class="formulario-2" >
           <input type="text"  placeholder="Primeiro Nome" id="nome" required/>
           <input type="text" placeholder="Sobrenome" id="sobrenome" required/>
           <input type="text"  placeholder="E-mail" id="email" required/>
           <input type="text"  placeholder="Telephone" id="telefone" required/>
           <input type="text"  placeholder="11+4 = ?" id="question" required/>
           
-          <button type="submit" onclick="cadastro()" class="botao" id="clique">QUERO ACOMPANHAR A SÉRIE</button>
+          <button type="submit" onclick="cadastro()" class="botao" id="clique"><a href="/thankyoupage.html">QUERO ACOMPANHAR A SÉRIE</a></button>
         </form>
       </div>
     </section>
@@ -202,8 +225,11 @@
       </div>
     </section>
 
+   
+
     
 
     <script src="/script/script.js"></script>
+    <script src="/script/animation.js"></script>
   </body>
 </html>

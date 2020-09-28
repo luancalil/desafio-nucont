@@ -51,27 +51,69 @@ h1 {
   color: #fff;
   font-size: 18px;
   font-weight: bolder;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .yellow {
   background: #ffb700;
   height: 300px;
+  width: 100%;
+}
+
+.yellow div {
   display: block;
-  justify-content: center;
+  text-align: center;
 }
 
-.yellow .yellow-div {
-  padding-top: 75px;
-  width: 950px;
-}
-
-.yellow .yellow-div p {
+.yellow p {
   font-size: 20px;
   font-weight: bolder;
-  text-align: center;
+
   color: #063254;
+  padding-top: 50px;
 }
 
-.yellow .telegram a img {
+.telegram a img {
+  margin: 30px auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .topo {
+    background: url("/img/ferbg\ 2.png");
+    display: block;
+    width: 100%;
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .black h1 {
+    padding: 70px 80px 0 80px;
+    margin: 0px auto 20px auto;
+    font-size: 24px;
+  }
+
+  .black p {
+    margin: 0 20px 0 80px;
+    font-size: 18px;
+    text-align: left;
+    width: 250px;
+  }
+
+  .black p + p {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .bg {
+    display: none;
+  }
+
+  .yellow {
+    height: 400px;
+  }
+
+  .telegram a img {
+    width: 350px;
+    margin-top: 35px;
+  }
 }
