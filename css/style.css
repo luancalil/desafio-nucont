@@ -252,14 +252,20 @@ hr {
 
   .introduction div.formulario {
     background: #141414;
-    height: 500px;
+    height: 470px;
+    margin: 0 auto;
+    padding: 80px 0;
   }
   .introduction div.formulario input {
     width: 320px;
   }
+  .introduction div.formulario button.botao {
+    width: 320px;
+    font-size: 16px;
+  }
 
   .section-2 {
-    margin-top: 305px;
+    margin-top: 275px;
     height: 570px;
     display: block;
   }
@@ -278,9 +284,10 @@ hr {
   }
 
   .section-2 .botao {
-    width: 353px;
-    height: 53px;
+    width: 320px;
+    height: 70px;
     margin-top: 20px;
+    font-size: 16px;
   }
 
   .lista {
@@ -333,6 +340,7 @@ hr {
     margin: 0 auto;
     padding: 0 0;
     font-size: 14px;
+    height: 400px;
   }
 
   .text-2 p {
@@ -366,5 +374,19 @@ hr {
 
   .formulario-2 input {
     width: 320px;
+  }
+  .formulario-2 button.botao {
+    width: 320px;
+    font-size: 16px;
+  }
+
+  .quote {
+    display: block;
+  }
+  .quote h1 {
+    font-size: 16px;
+    color: #ffbc10;
+    text-align: center;
+    margin-top: 30px;
   }
 }
