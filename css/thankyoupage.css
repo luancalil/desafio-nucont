@@ -5,6 +5,11 @@ h1 {
   font-size: 29px;
 }
 
+hr {
+  border: 5px solid #ffb700;
+  margin: 0 0;
+}
+
 .topo {
   background: url("/img/ferbg\ 3.png");
   background-repeat: no-repeat;
@@ -78,6 +83,9 @@ h1 {
 }
 
 @media only screen and (max-width: 500px) {
+  hr {
+    display: none;
+  }
   .topo {
     background: url("/img/ferbg\ 2.png");
     display: block;
